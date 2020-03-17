@@ -1,0 +1,10 @@
+/Users/raphtalia/workspace/csharp/json/bin/Debug/netcoreapp2.2/json.deps.json
+/Users/raphtalia/workspace/csharp/json/bin/Debug/netcoreapp2.2/json.runtimeconfig.json
+/Users/raphtalia/workspace/csharp/json/bin/Debug/netcoreapp2.2/json.runtimeconfig.dev.json
+/Users/raphtalia/workspace/csharp/json/bin/Debug/netcoreapp2.2/json.dll
+/Users/raphtalia/workspace/csharp/json/bin/Debug/netcoreapp2.2/json.pdb
+/Users/raphtalia/workspace/csharp/json/obj/Debug/netcoreapp2.2/json.csprojAssemblyReference.cache
+/Users/raphtalia/workspace/csharp/json/obj/Debug/netcoreapp2.2/json.AssemblyInfoInputs.cache
+/Users/raphtalia/workspace/csharp/json/obj/Debug/netcoreapp2.2/json.AssemblyInfo.cs
+/Users/raphtalia/workspace/csharp/json/obj/Debug/netcoreapp2.2/json.dll
+/Users/raphtalia/workspace/csharp/json/obj/Debug/netcoreapp2.2/json.pdb
