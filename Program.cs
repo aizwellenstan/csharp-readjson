@@ -2,6 +2,7 @@ using System;
 using System.IO;
 using System.Collections.Generic;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 public class Program
 {
@@ -17,9 +18,20 @@ public class Program
             var json = r.ReadToEnd();
 
             // TO Json
-            var initJson = JsonConvert.DeserializeObject(json);
+            // var obj = JsonConvert.DeserializeObject(json);
+            // or
+            // JObject obj = JObject.Parse(json);
 
-            Console.WriteLine(initJson);
+            // To String    
+            // result = JsonConvert.SerializeObject(json);
+
+            JObject obj = JObject.Parse(json);
+            
+            var ModulePermission = obj["ModulePermission"];
+
+            Console.WriteLine(ModulePermission);
+
+            // 
 
             // foreach (var item in initJson) {
             //     Console.WriteLine(item);   
@@ -31,8 +43,7 @@ public class Program
             //     // item.Value = item.Value.ToString().Replace("v1", "v2");                   
             // }
 
-            // To String
-            result = JsonConvert.SerializeObject(json);
+            
             // Console.WriteLine(result);              
         }
         // File.WriteAllText(filepath, result);
